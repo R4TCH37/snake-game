@@ -36,8 +36,6 @@ def message_to_screen(text, color, x, y):
 # sprite group
 all_sprites = pygame.sprite.Group()
 
-start = time.time()
-
 
 def start_menu():
     screen.fill(BLACK)
